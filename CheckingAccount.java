@@ -18,6 +18,7 @@ public class CheckingAccount extends Exception {
         }
         else {
             balance -= amount; //withdraw successful
+            System.out.println("The balance after withdraw is: $" + balance);
         }
     }
 
